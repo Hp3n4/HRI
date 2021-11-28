@@ -50,5 +50,19 @@ namespace HRI
             FrmPacienteInsertar.MdiParent = this;
             FrmPacienteInsertar.Show();
         }
+
+        private void eliminarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPacienteEliminar FrmPacienteEliminar = new frmPacienteEliminar(this, FrmPacienteConsulta);
+            FrmPacienteEliminar.MdiParent = this;
+            FrmPacienteEliminar.Show();
+        }
+
+        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPacienteActualizar FrmPacienteActualizar = new frmPacienteActualizar(this, FrmPacienteConsulta);
+            FrmPacienteActualizar.MdiParent = this;
+            FrmPacienteActualizar.Show();
+        }
     }
 }

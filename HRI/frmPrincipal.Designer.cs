@@ -78,6 +78,7 @@
             // 
             // salirToolStripMenuItem
             // 
+            this.salirToolStripMenuItem.Image = global::HRI.Properties.Resources.salida;
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(121, 26);
             this.salirToolStripMenuItem.Text = "Salir";
@@ -107,6 +108,7 @@
             // 
             // consultaToolStripMenuItem
             // 
+            this.consultaToolStripMenuItem.Image = global::HRI.Properties.Resources.consulta;
             this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
             this.consultaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.consultaToolStripMenuItem.Text = "Consulta";
@@ -119,6 +121,7 @@
             // 
             // nuevoToolStripMenuItem
             // 
+            this.nuevoToolStripMenuItem.Image = global::HRI.Properties.Resources.registro;
             this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
             this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.nuevoToolStripMenuItem.Text = "Nuevo";
@@ -126,15 +129,19 @@
             // 
             // modificarToolStripMenuItem
             // 
+            this.modificarToolStripMenuItem.Image = global::HRI.Properties.Resources.editar_documento;
             this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
             this.modificarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.modificarToolStripMenuItem.Text = "Modificar";
+            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
             // 
             // eliminarToolStripMenuItem
             // 
+            this.eliminarToolStripMenuItem.Image = global::HRI.Properties.Resources.basura;
             this.eliminarToolStripMenuItem.Name = "eliminarToolStripMenuItem";
             this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
+            this.eliminarToolStripMenuItem.Click += new System.EventHandler(this.eliminarToolStripMenuItem_Click);
             // 
             // servicioToolStripMenuItem
             // 
